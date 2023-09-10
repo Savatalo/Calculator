@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(90deg, rgba(102,182,227,1) 30%, rgba(69,252,173,1) 70%);
+    font-family: monospace;
+}
+
+.main {
+    border-radius: 1em;
+    background-color: white;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 160px;
+}
+
+#input {
+    border-radius: 2em;
+    border: none;
+    outline: none;
+    background: #ECECEC;
+    height: 30px;
+}
+
+.buttons button {
+    margin-top: 15px;
+    border: none;
+    background-color: rgba(102,182,227,1);
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    color: white;
+}
+
+.buttons button:hover {
+    background-color: black;
+    transition: 1s;
+}
