@@ -11,7 +11,7 @@ body {
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 160px;
+    margin-top: 70px;
 }
 
 #input {
@@ -37,3 +37,47 @@ body {
     background-color: black;
     transition: 1s;
 }
+
+.numbers-div button {
+    margin-top: 15px;
+    border: none;
+    background-color:#ECECEC;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    color: black;
+}
+
+.numbers-div {
+    width: 50%;
+    margin-left: 16.5%;
+}
+
+
+.numbers-div button:hover {
+    background-color: rgba(102,182,227,1);
+    color: white;
+    transition: 1s;
+}
+
+#clear {
+    background-color: red;
+    color: white;
+}
+
+#clear:hover {
+    background-color: #ECECEC;
+    color: black;
+}
+
+#equel {
+    background-color: lime;
+    color: white;
+}
+
+#equel:hover {
+    background-color: #ECECEC;
+    color: black;
+}
+
